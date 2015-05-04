@@ -31,6 +31,10 @@ the slaves Plex application data directory.  The symlinks are set up as follows:
 
 ![ScreenShot](http://i.imgur.com/9sRbK9A.png)
 
+The Preferences.xml should be the same, but should be copied from the r/o
+directory.  This allows you to modify configs on the slaves, but still maintain
+the same Plex "server ID" that is used by plex.tv
+
 The reason we get so granular with the symlinks is because we don't want to
 symlink the "com.plexapp.plugins.library.db-shm" or 
 "com.plexapp.plugins.library.db-shm" files. Those files are the temporary
