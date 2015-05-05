@@ -1,6 +1,11 @@
 Plex Load Balancer
 =================
 
+NOTE: This is super super beta.  I did have it running without issue for 
+roughly a day but just recently I started running into issues with the slave 
+complaining a lot about not being able to write to the database and seemingly
+crashing because of it.
+
 This nginx configuration effectively load balances the Plex Transcoder across
 multiple machines.
 
